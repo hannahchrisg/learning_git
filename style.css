@@ -1,0 +1,73 @@
+
+.formstyle {
+    max-width: 80vw;          
+    margin: 0 auto;            
+    text-align: center;
+   
+    padding: 20px;
+
+    font-family: Arial, sans-serif;
+}
+
+
+.formstyle label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #ffffff;
+    text-align: center;
+    font-size:25px;
+}
+
+
+
+.formstyle input[type="text"],
+.formstyle input[type="email"],
+.formstyle textarea {
+   width:150px;
+  position:relative; 
+
+
+   height:150px;
+    padding: 10px 20px;
+    border: 1px solid #ffffffbb;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background: #7e7676;
+    color: #000;
+    text-align:center;
+    border: 2px solid black;
+}
+
+.formstyle input:focus,
+.formstyle textarea:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 6px rgba(0,115,170,0.3);
+    outline: none;
+}
+
+/* Textarea */
+.formstyle textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Submit button */
+.formstyle input[type="submit"] {
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 12px 20px;
+
+    cursor: pointer;
+    font-size: 15px;
+    transition :0.3s ease;
+}
+
+.formstyle input[type="submit"]:hover {
+    background: #ffffff;
+    color:rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
